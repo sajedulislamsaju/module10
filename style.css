@@ -142,3 +142,19 @@ hr {
 }
 
 
+/* this is the midia queri */
+
+@media only screen and (max-width:688px) {
+    .conteinor {
+        width:100%
+    }
+    .players, .courses, .blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .blogs,.courses,.player {
+        flex-direction: column;
+    }
+    grid-g
+ 
+}
